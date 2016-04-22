@@ -1,0 +1,45 @@
+1425506400|Project kickoff
+1425938400|"System Model" diagram
+1428526800|Start managing project with Waffle.io
+1430859600|Add initial project boilerplate
+1431810000|Add user personas
+1434142800|Initial integration with API Umbrella
+1434402000|Initial dashboard code
+1434747600|Initial Elastic integration
+1434920400|Add first user roles
+1435006800|Material design experiments
+1435179600|First dashboard charts
+1435957200|Add Swagger UI
+1436389200|Catalogue feature added
+1436475600|Bookmarks feature added
+1437512400|Home  page improvements
+1438290000|Initial swagger upload support
+1438635600|Convert CoffeeScript to JavaScript
+1439154000|Integrate dashboard charts with DC.js/Crossfilter
+1440104400|Add API Backend import feature
+1440622800|Add API Backend status feature
+1441832400|Add authorization for API Backend management
+1442869200|Mindtrek Openmind presentation
+1443474000|API Backend form usability improvement (help text)
+1444078800|Initial API Documentation import/display feature
+1444942800|Add API Backend feedback channel feature
+1445896800|Add project contributing guide
+1446069600|Add API Ratings feature
+1446242400|Add Custom Branding feature
+1447279200|R emove Bootstrap files
+1448575200|API Documentation improvements
+1449525600|Add Settings feature
+1449871200|Enable project translation (i18n)
+1450476000|Add Search feature
+1450735200|Add API Backend Wizard feature
+1451772000|Configure automated deployment
+1452117600|Add Latest API Backends feature
+1452204000|Allow easy  branding style override
+1452290400|Add API Backlog feature
+1452376800|Improved contributor guidelines 
+1452463200|Add API Metadata feature
+1452895200|Improve Branding feature
+1453413600|Add Branding to home page
+1453586400|Rewrite View API Backend (tabbed interface)
+1454191200|Improve API usage instructions
+1454623200|Improved Finnish translations
