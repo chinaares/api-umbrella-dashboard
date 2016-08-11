@@ -58,7 +58,7 @@ Template.dashboard.onCreated(function () {
 
       // Construct parameters for elasticsearch
       let params = {
-        size: 50000,
+        size: 25000,
         body: {
           query: {
             filtered: {
@@ -108,10 +108,28 @@ Template.dashboard.onCreated(function () {
       // Set loader
       instance.chartDataLoadingState.set(true);
 
+      console.log("Fetching data.");
+      // record start time
+      var startTime = new Date();
+
       // Fetch elasticsearch data
       Meteor.call('getElasticSearchData', params, (err, res) => {
 
         if (err) throw new Meteor.Error(err);
+
+        // later record end time
+        var endTime = new Date();
+        console.log("End time:", endTime);
+        // time difference in ms
+        let timeDiff = endTime - startTime;
+
+        // strip the ms
+        timeDiff /= 1000;
+
+        // get seconds (Original had 'round' which incorrectly counts 0:28, 0:29, 1:30 ... 1:59, 1:0)
+        const seconds = Math.round(timeDiff % 60);
+
+        console.log("Fetching chart data took", seconds, "seconds.");
 
         // Get list of items for analytics
         const hits = res.hits.hits;
